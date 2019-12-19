@@ -7,9 +7,12 @@ namespace TestProject.BusinessAccessLayer
 {
     public class Operations
     {
-        public int Addition(int a,int b,int c)
+        public int Addition()
         {
-            return a + b+c;
+            int a = 10;
+            int b = 20;
+            int c = 30;
+             return a + b + c;
             
         }
         public int Subtraction(int a, int b, int c)
@@ -17,10 +20,10 @@ namespace TestProject.BusinessAccessLayer
             return a - b - c;
 
         }
-         public int Multiplication(int a, int b, int c)
+         public void Multiplication(int a, int b, int c)
         {
 
-            return a *b *c;
+            
 
         }
         public void Multiplication(int a, int b, int c,int d)
