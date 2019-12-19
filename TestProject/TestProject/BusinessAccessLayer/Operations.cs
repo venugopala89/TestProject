@@ -23,10 +23,10 @@ namespace TestProject.BusinessAccessLayer
             return a *b *c;
 
         }
-        public int Multiplication(int a, int b, int c,int d)
+        public void Multiplication(int a, int b, int c,int d)
         {
 
-            return a * b * c*d;
+            int f= a * b * c*d;
 
         }
 
