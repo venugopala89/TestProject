@@ -12,6 +12,11 @@ namespace TestProject.BusinessAccessLayer
             return a + b+c;
             
         }
+        public int Subtraction(int a, int b, int c)
+        {
+            return a - b - c;
+
+        }
 
     }
 }
